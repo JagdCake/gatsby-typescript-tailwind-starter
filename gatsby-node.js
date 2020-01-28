@@ -1,3 +1,5 @@
+require("ts-node").register({ files: true });
+
 /**
  * Implement Gatsby's Node APIs in this file.
  *
