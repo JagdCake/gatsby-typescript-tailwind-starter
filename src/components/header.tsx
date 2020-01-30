@@ -2,12 +2,9 @@ import { Link } from "gatsby"
 import React from "react"
 import { FunctionComponent } from "react"
 import { ReactElement } from "react"
+import { SiteTitleQuery } from "./__generated__/SiteTitleQuery"
 
-interface Header {
-    siteTitle: string;
-}
-
-const Header: FunctionComponent<Header> = ({ siteTitle }: Header): ReactElement => (
+const Header: FunctionComponent<SiteTitleQuery> = ({ site }: SiteTitleQuery): ReactElement => (
   <header
     style={{
       background: `rebeccapurple`,
@@ -29,7 +26,7 @@ const Header: FunctionComponent<Header> = ({ siteTitle }: Header): ReactElement 
             textDecoration: `none`,
           }}
         >
-          {siteTitle}
+          {site}
         </Link>
       </h1>
     </div>
