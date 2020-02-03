@@ -37,7 +37,7 @@ const Layout: FunctionComponent<LayoutProps> = ({ children }: LayoutProps): Reac
                 <footer>
                     © {new Date().getFullYear()}, Built with
                     {` `}
-                    <a href="https://www.gatsbyjs.org">Gatsby</a>
+                    <a className="underline text-blue-500" href="https://www.gatsbyjs.org">Gatsby</a>
                 </footer>
             </div>
         </>
