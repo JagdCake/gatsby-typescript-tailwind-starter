@@ -9,15 +9,19 @@
 
 This starter uses Gatsby's default starter as a base and adds support
 for [TypeScript](https://www.typescriptlang.org/) and [Tailwind
-CSS](https://tailwindcss.com/) (not yet) on top.
+CSS](https://tailwindcss.com/) on top.
 
-- there are 4 new dependencies
+- there are 6 new dependencies
     - [typescript](https://www.npmjs.com/package/typescript)
     - [ts-node](https://www.npmjs.com/package/ts-node)
     - [gatsby-plugin-typescript](https://www.npmjs.com/package/gatsby-plugin-typescript)
     - [@types/react-helmet](https://www.npmjs.com/package/@types/react-helmet)
+    - [tailwindcss](https://www.npmjs.com/package/tailwindcss)
+    - [gatsby-plugin-postcss](https://www.npmjs.com/package/gatsby-plugin-postcss)
 - the files in [src/components/](./src/components/) and
   [src/pages/](./src/pages/) have been updated with TypeScript support
+- the default Gatsby CSS file (layout.css) has been deleted; you'll find
+  [src/components/main.css](./src/components/main.css) in its place
 
 ## 🚀 Quick start
 
