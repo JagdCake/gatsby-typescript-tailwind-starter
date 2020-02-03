@@ -17,7 +17,7 @@ const IndexPage: FunctionComponent = (): ReactElement => (
     <div className="max-w-xs mb-6" >
       <Image />
     </div>
-    <Link to="/page-2/">Go to page 2</Link>
+    <Link className="underline text-blue-500" to="/page-2/">Go to page 2</Link>
   </Layout>
 )
 
