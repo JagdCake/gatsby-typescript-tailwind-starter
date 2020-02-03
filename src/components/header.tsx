@@ -10,7 +10,7 @@ interface HeaderProps {
 const Header: FunctionComponent<HeaderProps> = ({ siteTitle }: HeaderProps): ReactElement => (
     <header className="bg-purple-800 mb-6">
         <div className="mx-auto max-w-4xl py-6 px-4">
-            <h1>
+            <h1 className="text-2xl">
                 <Link to="/" className="text-white">
                     {siteTitle}
                 </Link>
