@@ -8,27 +8,10 @@ interface HeaderProps {
 }
 
 const Header: FunctionComponent<HeaderProps> = ({ siteTitle }: HeaderProps): ReactElement => (
-    <header
-        style={{
-            background: `rebeccapurple`,
-                marginBottom: `1.45rem`,
-        }}
-    >
-        <div
-            style={{
-                margin: `0 auto`,
-                    maxWidth: 960,
-                    padding: `1.45rem 1.0875rem`,
-            }}
-        >
-            <h1 style={{ margin: 0 }}>
-                <Link
-                    to="/"
-                    style={{
-                        color: `white`,
-                            textDecoration: `none`,
-                    }}
-                >
+    <header className="bg-purple-800 mb-6">
+        <div className="mx-auto max-w-4xl py-6 px-4">
+            <h1>
+                <Link to="/" className="text-white">
                     {siteTitle}
                 </Link>
             </h1>
