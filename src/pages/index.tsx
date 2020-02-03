@@ -10,7 +10,7 @@ import SEO from "../components/seo"
 const IndexPage: FunctionComponent = (): ReactElement => (
   <Layout>
     <SEO title="Home" />
-    <h1>Hi people</h1>
+    <h1 className="text-3xl">Hi people</h1>
     <p>Welcome to your new Gatsby site.</p>
     <p>Now go build something great.</p>
     <div className="max-w-xs mb-6" >
