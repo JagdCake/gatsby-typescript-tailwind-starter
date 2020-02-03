@@ -6,13 +6,19 @@
  */
 
 import React from "react"
-import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
+import { FunctionComponent } from "react"
+import { ReactElement } from "react"
+import { ReactNode } from "react"
 
 import Header from "./header"
 import "./layout.css"
 
-const Layout = ({ children }) => {
+interface LayoutProps {
+    children: ReactNode;
+}
+
+const Layout: FunctionComponent<LayoutProps> = ({ children }: LayoutProps): ReactElement => {
     const data = useStaticQuery(graphql`
         query SiteTitleQuery {
           site {
@@ -36,16 +42,12 @@ const Layout = ({ children }) => {
                 <main>{children}</main>
                 <footer>
                     © {new Date().getFullYear()}, Built with
-    {` `}
-    <a href="https://www.gatsbyjs.org">Gatsby</a>
-</footer>
-      </div>
-  </>
-  )
-}
-
-Layout.propTypes = {
-    children: PropTypes.node.isRequired,
+                    {` `}
+                    <a href="https://www.gatsbyjs.org">Gatsby</a>
+                </footer>
+            </div>
+        </>
+    )
 }
 
 export default Layout
