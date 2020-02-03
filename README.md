@@ -1,4 +1,3 @@
-<!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.org">
     <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
@@ -8,9 +7,17 @@
   Gatsby's default starter, but with TypeScript and Tailwind CSS support
 </h2>
 
-Kick off your project with this default boilerplate. This starter ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React.
+This starter uses Gatsby's default starter as a base and adds support
+for [TypeScript](https://www.typescriptlang.org/) and [Tailwind
+CSS](https://tailwindcss.com/) (not yet) on top.
 
-_Have another more specific idea? You may want to check out our vibrant collection of [official and community-created starters](https://www.gatsbyjs.org/docs/gatsby-starters/)._
+- there are 4 new dependencies
+    - [typescript](https://www.npmjs.com/package/typescript)
+    - [ts-node](https://www.npmjs.com/package/ts-node)
+    - [gatsby-plugin-typescript](https://www.npmjs.com/package/gatsby-plugin-typescript)
+    - [@types/react-helmet](https://www.npmjs.com/package/@types/react-helmet)
+- the files in [src/components/](./src/components/) and
+  [src/pages/](./src/pages/) have been updated with TypeScript support
 
 ## 🚀 Quick start
 
@@ -93,5 +100,3 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 ## 💫 Deploy
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
-
-<!-- AUTO-GENERATED-CONTENT:END -->
