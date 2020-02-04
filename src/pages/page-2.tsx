@@ -9,7 +9,7 @@ import SEO from '../components/seo';
 const SecondPage: FunctionComponent = (): ReactElement => (
     <Layout>
         <SEO title="Page two" />
-        <h1>Hi from the second page</h1>
+        <h1 className="text-3xl">Hi from the second page</h1>
         <p>Welcome to page 2</p>
         <Link className="underline text-blue-500" to="/">
             Go back to the homepage
