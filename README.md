@@ -11,17 +11,17 @@ This starter uses Gatsby's default starter as a base and adds support
 for [TypeScript](https://www.typescriptlang.org/) and [Tailwind
 CSS](https://tailwindcss.com/) on top.
 
-- there are 6 new dependencies
-    - [typescript](https://www.npmjs.com/package/typescript)
-    - [ts-node](https://www.npmjs.com/package/ts-node)
-    - [gatsby-plugin-typescript](https://www.npmjs.com/package/gatsby-plugin-typescript)
-    - [@types/react-helmet](https://www.npmjs.com/package/@types/react-helmet)
-    - [tailwindcss](https://www.npmjs.com/package/tailwindcss)
-    - [gatsby-plugin-postcss](https://www.npmjs.com/package/gatsby-plugin-postcss)
-- the files in [src/components/](./src/components/) and
-  [src/pages/](./src/pages/) have been updated with TypeScript support
-- the default Gatsby CSS file (layout.css) has been deleted; you'll find
-  [src/components/main.css](./src/components/main.css) in its place
+-   there are 6 new dependencies
+    -   [typescript](https://www.npmjs.com/package/typescript)
+    -   [ts-node](https://www.npmjs.com/package/ts-node)
+    -   [gatsby-plugin-typescript](https://www.npmjs.com/package/gatsby-plugin-typescript)
+    -   [@types/react-helmet](https://www.npmjs.com/package/@types/react-helmet)
+    -   [tailwindcss](https://www.npmjs.com/package/tailwindcss)
+    -   [gatsby-plugin-postcss](https://www.npmjs.com/package/gatsby-plugin-postcss)
+-   the files in [src/components/](./src/components/) and
+    [src/pages/](./src/pages/) have been updated with TypeScript support
+-   the default Gatsby CSS file (layout.css) has been deleted; you'll find
+    [src/components/main.css](./src/components/main.css) in its place
 
 ## 🚀 Quick start
 
@@ -30,7 +30,7 @@ CSS](https://tailwindcss.com/) on top.
     - TypeScript + Tailwind CSS: move on to step 2
     - TypeScript support only: follow the steps from [branch typescript](https://github.com/JagdCake/gatsby-typescript-tailwind-starter/tree/typescript#-quick-start)
 
-1.  **Create a Gatsby site.**
+1. **Create a Gatsby site.**
 
     Use the Gatsby CLI to create a new site, specifying this starter.
 
@@ -39,7 +39,7 @@ CSS](https://tailwindcss.com/) on top.
     gatsby new my-tswind-starter https://github.com/jagdcake/gatsby-typescript-tailwind-starter
     ```
 
-1.  **Start developing.**
+1. **Start developing.**
 
     Navigate into your new site’s directory and start it up.
 
@@ -48,7 +48,7 @@ CSS](https://tailwindcss.com/) on top.
     gatsby develop
     ```
 
-1.  **Open the source code and start editing!**
+1. **Open the source code and start editing!**
 
     Your site is now running at `http://localhost:8000`!
 
@@ -102,9 +102,9 @@ A quick look at the top-level files and directories you'll see in a Gatsby proje
 
 Looking for more guidance? Full documentation for Gatsby lives [on the website](https://www.gatsbyjs.org/). Here are some places to start:
 
-- **For most developers, we recommend starting with our [in-depth tutorial for creating a site with Gatsby](https://www.gatsbyjs.org/tutorial/).** It starts with zero assumptions about your level of ability and walks through every step of the process.
+-   **For most developers, we recommend starting with our [in-depth tutorial for creating a site with Gatsby](https://www.gatsbyjs.org/tutorial/).** It starts with zero assumptions about your level of ability and walks through every step of the process.
 
-- **To dive straight into code samples, head [to our documentation](https://www.gatsbyjs.org/docs/).** In particular, check out the _Guides_, _API Reference_, and _Advanced Tutorials_ sections in the sidebar.
+-   **To dive straight into code samples, head [to our documentation](https://www.gatsbyjs.org/docs/).** In particular, check out the _Guides_, _API Reference_, and _Advanced Tutorials_ sections in the sidebar.
 
 ## 💫 Deploy
 

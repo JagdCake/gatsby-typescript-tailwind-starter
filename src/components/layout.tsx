@@ -5,29 +5,31 @@
  * See: https://www.gatsbyjs.org/docs/use-static-query/
  */
 
-import React from "react"
-import { useStaticQuery, graphql } from "gatsby"
-import { FunctionComponent } from "react"
-import { ReactElement } from "react"
-import { ReactNode } from "react"
+import React from 'react';
+import { useStaticQuery, graphql } from 'gatsby';
+import { FunctionComponent } from 'react';
+import { ReactElement } from 'react';
+import { ReactNode } from 'react';
 
-import Header from "./header"
-import "./main.css"
+import Header from './header';
+import './main.css';
 
 interface LayoutProps {
     children: ReactNode;
 }
 
-const Layout: FunctionComponent<LayoutProps> = ({ children }: LayoutProps): ReactElement => {
+const Layout: FunctionComponent<LayoutProps> = ({
+    children,
+}: LayoutProps): ReactElement => {
     const data = useStaticQuery(graphql`
         query SiteTitleQuery {
-          site {
-            siteMetadata {
-              title
+            site {
+                siteMetadata {
+                    title
+                }
             }
-          }
         }
-    `)
+    `);
 
     return (
         <>
@@ -37,11 +39,16 @@ const Layout: FunctionComponent<LayoutProps> = ({ children }: LayoutProps): Reac
                 <footer>
                     © {new Date().getFullYear()}, Built with
                     {` `}
-                    <a className="underline text-blue-500" href="https://www.gatsbyjs.org">Gatsby</a>
+                    <a
+                        className="underline text-blue-500"
+                        href="https://www.gatsbyjs.org"
+                    >
+                        Gatsby
+                    </a>
                 </footer>
             </div>
         </>
-    )
-}
+    );
+};
 
-export default Layout
+export default Layout;
