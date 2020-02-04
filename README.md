@@ -24,7 +24,7 @@ CSS](https://tailwindcss.com/) on top.
     -   [eslint-config-prettier](https://www.npmjs.com/package/eslint-config-prettier)
     -   [eslint-plugin-prettier](https://www.npmjs.com/package/eslint-plugin-prettier)
     -   [eslint-plugin-react](https://www.npmjs.com/package/eslint-plugin-react)
-    -   [gatsby-plugin-purgecss](https://www.gatsbyjs.org/packages/gatsby-plugin-purgecss/)
+    -   [gatsby-plugin-purgecss](https://www.npmjs.com/package/gatsby-plugin-purgecss)
 -   the files in [src/components/](./src/components/) and
     [src/pages/](./src/pages/) have been updated with TypeScript support
 -   the default Gatsby CSS file (layout.css) has been deleted; you'll find
