@@ -11,13 +11,19 @@ This starter uses Gatsby's default starter as a base and adds support
 for [TypeScript](https://www.typescriptlang.org/) and [Tailwind
 CSS](https://tailwindcss.com/) on top.
 
--   there are 6 new dependencies
+-   there are 12 new dependencies
     -   [typescript](https://www.npmjs.com/package/typescript)
     -   [ts-node](https://www.npmjs.com/package/ts-node)
     -   [gatsby-plugin-typescript](https://www.npmjs.com/package/gatsby-plugin-typescript)
     -   [@types/react-helmet](https://www.npmjs.com/package/@types/react-helmet)
     -   [tailwindcss](https://www.npmjs.com/package/tailwindcss)
     -   [gatsby-plugin-postcss](https://www.npmjs.com/package/gatsby-plugin-postcss)
+    -   [eslint](https://www.npmjs.com/package/eslint)
+    -   [@typescript-eslint/eslint-plugin](https://www.npmjs.com/package/@typescript-eslint/eslint-plugin)
+    -   [@typescript-eslint/parser](https://www.npmjs.com/package/@typescript-eslint/parser)
+    -   [eslint-config-prettier](https://www.npmjs.com/package/eslint-config-prettier)
+    -   [eslint-plugin-prettier](https://www.npmjs.com/package/eslint-plugin-prettier)
+    -   [eslint-plugin-react](https://www.npmjs.com/package/eslint-plugin-react)
 -   the files in [src/components/](./src/components/) and
     [src/pages/](./src/pages/) have been updated with TypeScript support
 -   the default Gatsby CSS file (layout.css) has been deleted; you'll find
