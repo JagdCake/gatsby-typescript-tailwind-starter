@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header renders correctly 1`] = `
+<header
+  className="bg-purple-800 mb-6"
+>
+  <div
+    className="mx-auto max-w-4xl py-6 px-4"
+  >
+    <h1
+      className="text-4xl"
+    >
+      <a
+        className="text-white"
+        href="/"
+      >
+        Starter
+      </a>
+    </h1>
+  </div>
+</header>
+`;
