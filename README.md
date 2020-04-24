@@ -9,7 +9,8 @@
 
 This starter uses Gatsby's default starter as a base and adds support
 for [TypeScript](https://www.typescriptlang.org/) and [Tailwind
-CSS](https://tailwindcss.com/) on top.
+CSS](https://tailwindcss.com/) on top. Also, includes support for
+unit testing with [Jest](https://jestjs.io/).
 
 -   there are 13 new dependencies
     -   [typescript](https://www.npmjs.com/package/typescript)
