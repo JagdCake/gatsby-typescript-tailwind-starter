@@ -6,7 +6,7 @@
  */
 
 import React from 'react';
-import Helmet from 'react-helmet';
+import { Helmet } from 'react-helmet';
 import { useStaticQuery, graphql } from 'gatsby';
 import { FunctionComponent } from 'react';
 import { ReactElement } from 'react';
