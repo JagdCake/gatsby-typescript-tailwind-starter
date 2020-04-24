@@ -1,0 +1,116 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Index page renders correctly 1`] = `
+Array [
+  <header
+    className="bg-purple-800 mb-6"
+  >
+    <div
+      className="mx-auto max-w-4xl py-6 px-4"
+    >
+      <h1
+        className="text-4xl"
+      >
+        <a
+          className="text-white"
+          href="/"
+        >
+          Starter
+        </a>
+      </h1>
+    </div>
+  </header>,
+  <div
+    className="mx-auto max-w-4xl pt-0 px-4 pb-6"
+  >
+    <main>
+      <h1
+        className="text-3xl"
+      >
+        Hi people
+      </h1>
+      <p>
+        Welcome to your new Gatsby site.
+      </p>
+      <p>
+        Now go build something great.
+      </p>
+      <div
+        className="max-w-xs mb-6"
+      >
+        <div
+          className=" gatsby-image-wrapper"
+          style={
+            Object {
+              "overflow": "hidden",
+              "position": "relative",
+            }
+          }
+        >
+          <div
+            aria-hidden={true}
+            style={
+              Object {
+                "paddingBottom": "100%",
+                "width": "100%",
+              }
+            }
+          />
+          <picture>
+            <source
+              sizes="100 200 300"
+              srcSet="gatsby-astronaut"
+            />
+            <img
+              alt=""
+              loading="lazy"
+              onLoad={[Function]}
+              sizes="100 200 300"
+              src="base64-encoded-image"
+              srcSet="gatsby-astronaut"
+              style={
+                Object {
+                  "height": "100%",
+                  "left": 0,
+                  "objectFit": "cover",
+                  "objectPosition": "center",
+                  "opacity": 0,
+                  "position": "absolute",
+                  "top": 0,
+                  "transition": "opacity 500ms",
+                  "width": "100%",
+                }
+              }
+            />
+          </picture>
+          <noscript
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "<picture><source srcset=\\"gatsby-astronaut\\" sizes=\\"100 200 300\\" /><img loading=\\"lazy\\" sizes=\\"100 200 300\\" srcset=\\"gatsby-astronaut\\" src=\\"base64-encoded-image\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+              }
+            }
+          />
+        </div>
+      </div>
+      <a
+        className="underline text-blue-500"
+        href="/page-2/"
+      >
+        Go to page 2
+      </a>
+    </main>
+    <footer>
+      © 
+      2020
+      , Built with
+       
+      <a
+        className="underline text-blue-500"
+        href="https://www.gatsbyjs.org"
+      >
+        Gatsby
+      </a>
+    </footer>
+  </div>,
+]
+`;
