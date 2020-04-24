@@ -12,7 +12,7 @@ for [TypeScript](https://www.typescriptlang.org/) and [Tailwind
 CSS](https://tailwindcss.com/) on top. Also, includes support for
 unit testing with [Jest](https://jestjs.io/).
 
--   there are 13 new dependencies
+-   there are 18 new dependencies
     -   [typescript](https://www.npmjs.com/package/typescript)
     -   [ts-node](https://www.npmjs.com/package/ts-node)
     -   [gatsby-plugin-typescript](https://www.npmjs.com/package/gatsby-plugin-typescript)
@@ -26,6 +26,11 @@ unit testing with [Jest](https://jestjs.io/).
     -   [eslint-plugin-prettier](https://www.npmjs.com/package/eslint-plugin-prettier)
     -   [eslint-plugin-react](https://www.npmjs.com/package/eslint-plugin-react)
     -   [gatsby-plugin-purgecss](https://www.npmjs.com/package/gatsby-plugin-purgecss)
+    -   [jest](https://www.npmjs.com/package/jest)
+    -   [babel-jest](https://www.npmjs.com/package/babel-jest)
+    -   [react-test-renderer](https://www.npmjs.com/package/react-test-renderer)
+    -   [babel-preset-gatsby](https://www.npmjs.com/package/babel-preset-gatsby)
+    -   [identity-obj-proxy](https://www.npmjs.com/package/identity-obj-proxy)
 -   the files in [src/components/](./src/components/) and
     [src/pages/](./src/pages/) have been updated with TypeScript support
 -   the default Gatsby CSS file (layout.css) has been deleted; you'll find
