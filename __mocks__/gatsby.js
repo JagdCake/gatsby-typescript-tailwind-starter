@@ -23,5 +23,23 @@ module.exports = {
             })
     ),
     StaticQuery: jest.fn(),
-    useStaticQuery: jest.fn(),
+    useStaticQuery: jest.fn().mockImplementation(() => {
+        return {
+            site: {
+                siteMetadata: {
+                    title: `Starter`,
+                },
+            },
+            placeholderImage: {
+                childImageSharp: {
+                    fluid: {
+                        aspectRatio: 1,
+                        sizes: `100 200 300`,
+                        src: `base64-encoded-image`,
+                        srcSet: `gatsby-astronaut`,
+                    },
+                },
+            },
+        };
+    }),
 };
