@@ -12,11 +12,10 @@ for [TypeScript](https://www.typescriptlang.org/) and [Tailwind
 CSS](https://tailwindcss.com/) on top. Also, includes support for
 unit testing with [Jest](https://jestjs.io/).
 
--   there are 18 new dependencies
+-   there are 17 new dependencies
     -   [typescript](https://www.npmjs.com/package/typescript)
     -   [ts-node](https://www.npmjs.com/package/ts-node)
     -   [gatsby-plugin-typescript](https://www.npmjs.com/package/gatsby-plugin-typescript)
-    -   [@types/react-helmet](https://www.npmjs.com/package/@types/react-helmet)
     -   [tailwindcss](https://www.npmjs.com/package/tailwindcss)
     -   [gatsby-plugin-postcss](https://www.npmjs.com/package/gatsby-plugin-postcss)
     -   [eslint](https://www.npmjs.com/package/eslint)
