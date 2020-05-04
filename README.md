@@ -37,11 +37,6 @@ unit testing with [Jest](https://jestjs.io/).
 
 ## 🚀 Quick start
 
-1. **Choose starter version.**
-
-    - TypeScript + Tailwind CSS: move on to step 2
-    - TypeScript support only: follow the steps from [branch typescript](https://github.com/JagdCake/gatsby-typescript-tailwind-starter/tree/typescript#-quick-start)
-
 1. **Create a Gatsby site.**
 
     Use the Gatsby CLI to create a new site, specifying this starter.
