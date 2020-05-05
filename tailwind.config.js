@@ -5,7 +5,14 @@ module.exports = {
     variants: {},
     plugins: [],
     purge: {
-        content: ['./src/**/*.tsx', './src/**/*.jsx'],
+        // Filenames to scan for classes
+        content: [
+            './src/**/*.html',
+            './src/**/*.js',
+            './src/**/*.jsx',
+            './src/**/*.ts',
+            './src/**/*.tsx',
+        ],
         // PurgeCSS options
         options: {
             whitelist: [],
