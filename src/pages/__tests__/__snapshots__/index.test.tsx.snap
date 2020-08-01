@@ -42,6 +42,8 @@ Array [
           className=" gatsby-image-wrapper"
           style={
             Object {
+              "maxHeight": null,
+              "maxWidth": null,
               "overflow": "hidden",
               "position": "relative",
             }
